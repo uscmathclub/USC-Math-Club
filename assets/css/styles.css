@@ -50,3 +50,10 @@ button:hover{
 .card{
     margin-bottom: 10%;
 }
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fc0 /* change this to any color you want! */;
+}
