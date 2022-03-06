@@ -17,8 +17,8 @@ nav{
 nav a, nav a:visited{
     color: white;
 }
- nav a:hover{
-    color: var(--USC-gold);
+.nav-link:hover{
+    color: var(--USC-gold) !important;
 }
 button{
     background-color: var(--USC-red) !important;
@@ -50,10 +50,10 @@ button:hover{
 .card{
     margin-bottom: 10%;
 }
-.navbar-toggle .icon-bar {
-    display: block;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px;
-    background-color: #fc0 /* change this to any color you want! */;
+
+.card{
+    height: 850px;
+}
+.bg-text{
+    background-color: rgba(0, 0, 0, 0.5);
 }
